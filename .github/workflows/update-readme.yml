@@ -22,7 +22,7 @@ jobs: # 실제 실행될 내용
         pip install python-leetcode 
     - name: Run update.py # 2) update.py 실행
       run: |
-        python .github/workflows/update.py
+        python update.py
     - name: Commit changes # 3) 추가된 파일 commit
       run: |
         git config --global user.name '1971123-seongmin' # 유저명
